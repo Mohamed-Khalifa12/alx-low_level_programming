@@ -2,9 +2,10 @@
 
 void times_table(void)
 {
-    for(int i = 0; i <= 9; i++)
+	int i = 0, j = 0;
+    for(i = 0; i <= 9; i++)
     {
-        for(int j = 0; j <= 9; j++)
+        for(j = 0; j <= 9; j++)
         {
             int result =i*j;
             if(j != 0)
