@@ -1,4 +1,4 @@
-#  0x05-pointers_arrays_strings
+# 0x04-pointers_arrays_strings
 Introduction to pointers, arrays, and strings. These exercises are foundational to understanding most projects to the end of the course.
 ## New commands / functions used:
 ``*``, ``&``, ``char *ptr``, ``char arr[10]``, ``char *str = "Hello";``
@@ -32,3 +32,4 @@ Prints n elements from an array of integers
 Copies a string, like ``strcpy``
 <h6>100-atoi.c</h6>
 Converts a string to an integer, like ``atoi``
+
