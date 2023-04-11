@@ -2,14 +2,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
-/**
- * checker - checks for valid input
- * @argc: argument count
- * @i: counter for argv[]
- * @j: counter for argv[][]
- * @argv: argument vector
- * Return: 0 on success, 1 on failure
- */
+
 int checker(int argc, char *argv[])
 {
 	int i , j; 
@@ -19,12 +12,7 @@ int checker(int argc, char *argv[])
 				return 1;
 	return 0;
 }
-/**
- * main - adds all arguments together if they are digits.
- * @argc: argument count only accepts ints separated by spaces.
- * @argv: argument vector
- * Return: 0 on success, 1 on failure
- */
+
 int main(int argc, char *argv[])
 {
 	int result, i;
@@ -38,5 +26,5 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 		result += atoi(argv[i]);
 	printf("%d\n", result);
-	return (0);
+	return (1);
 }
