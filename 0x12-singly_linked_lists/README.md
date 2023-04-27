@@ -14,3 +14,7 @@ Prepends a node to the list.
 Appends a node to the list.
 <h6>4-free_list.c</h6>
 Frees space malloced by add_node or add_node_end.
+<h6>100-first.c</h6>
+Prints out a string before the entry point of the program is reached.
+<h6>101-hello_holberton.asm</h6>
+Prints out "Hello, Holberton".
