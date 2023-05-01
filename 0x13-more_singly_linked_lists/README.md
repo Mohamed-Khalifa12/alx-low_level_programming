@@ -25,3 +25,12 @@ Returns a sum of all the data in the list.
 Inserts a node at a specified point 
 <h6>10-delete_nodeint.c</h6>
 Deletes a node at a specified point
+<h6>100-reverse_listint</h6>
+Reverse the linked list and return the first elemet of the reversed one.
+<h6>101-print_listint_safe</h6>
+Prints LL safe
+<h6>102-free_listint_safe</h6>
+Free LL safe
+<h6>103-find_loop</h6>
+Find if the LL has a loop
+
