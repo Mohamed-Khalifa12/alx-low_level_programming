@@ -14,4 +14,7 @@ Sets value of bit at a specified point
 Sets value of bit to 0 at a specified point
 <h6>5-flip_bits.c</h6>
 Flips value of bit at a specified point
-
+<h6>100-get_endianness.c</h6>
+Checks endianness of the CPU
+<h6>101-password</h6>
+File that contains a password from crackme3
